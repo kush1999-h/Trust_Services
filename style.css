@@ -1,0 +1,64 @@
+/* General Body Styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  .main {
+    flex: 1; /* Expand to fill available space */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .text-center {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  .font-alt {
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    color: #333;
+  }
+  .starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+  .navbar-custom {
+    background-color: #333;
+    max-width: auto;
+    margin: 0;
+  }
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav > li > a {
+    color: #333;
+  }
+  .navbar-custom .navbar-toggle {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  .navbar-custom .navbar-toggle .icon-bar {
+    background-color: #333;
+  }
+
+  .footer p {
+    margin: 0;        /* Removes auto-centering */
+    text-align: left; /* Aligns text to the left */
+  }
+      footer.site-footer .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .footer .copyright {
+        margin: 0;
+      }
+      .footer .footer-social-links {
+        text-align: right;
+      }
+      .footer .footer-social-links a {
+        display: inline-block;
+        padding: 0 6px;
+      }
